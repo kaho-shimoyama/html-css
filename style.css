@@ -1,0 +1,364 @@
+@charset "utf-8";/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+  
+ body{
+     height:auto;
+ }
+ 
+/*背景*/
+.first-view{
+  background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width:100vw;
+  height: auto;
+  margin-top: -1rem;
+  
+}
+
+
+/*header*/
+
+
+.header{
+    align-items:center;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+
+.header-logo{
+    width: 13rem;
+    height: 1.5rem;
+    transition: 0.5s;
+    cursor : pointer;
+    margin-left: 1rem;
+   
+}
+
+
+.header-logo:hover{
+    opacity: 0.5;
+}
+
+
+.menu-list{
+    display: flex;
+    margin-left: auto;
+    cursor : pointer;
+   
+}
+
+ul {
+  list-style: none;
+ 
+}
+
+
+.menu-list a{
+   text-decoration: none;
+   font-size: 0.3rem;
+   font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MSGothic", sans-serif;
+   font-weight: 700;
+  
+}
+
+.menu-list a:not(:nth-of-type(6)) {
+   color: black;
+  
+}
+
+#last-child{
+    color:white;
+    font-weight: 700;
+}
+
+.title{
+    font-size: 0.8rem;
+    font-family: 'Lato', sans-serif;
+    font-weight:900; 
+
+}
+
+.menu-list li{
+    margin-left: 2.5rem;
+    text-align:center;
+    
+}
+
+.menu-list li:nth-child(6){
+    background-color: #F79214;
+    border-radius: 50px;
+    width: 8rem;
+    margin-right: 1.5rem;
+}
+
+.menu-list span:nth-child(6){
+    color:white;
+}
+
+
+
+
+/*メイン*/
+.main{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    box-sizing: border-box;
+}
+
+.main-contents {
+    width:50rem;
+    text-align: center
+    
+}
+
+.main-contents h1{
+    font-size:2.3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top:5.5rem;
+    line-height: 54px;
+  
+    
+}
+
+.main-logo{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    
+}
+
+.main-logo2{
+    width:15rem;
+}
+
+.main-btn{
+    margin-left: 10rem;
+}
+
+
+.main-btn ul{
+    display: flex;
+    margin-top: 1rem;
+    cursor : pointer;
+    transition: 0.5s;
+    
+}
+
+.main-btn a{
+    text-decoration: none;
+}
+
+
+
+.btn1{
+    background-color: #F79214;
+    border-radius: 50px;
+    width:15rem;
+    text-align: center;
+    padding: 1rem;
+    margin-right: 1.2rem;
+}
+
+
+.btn1 span{
+    color:white;
+    font-size:1rem;
+    font-weight: 700;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MSGothic", sans-serif;
+    
+}
+
+.btn1:hover{
+    opacity: 0.5;
+}
+
+
+.btn2{
+    background-color:white;
+    border:1px solid #E0E0E0;
+    border-radius: 50px;
+    width:13rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    
+}
+
+.btn2 span{
+    color:black;
+    font-size:1rem;
+    padding-left: 10px;
+    font-weight: 700;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MSGothic", sans-serif;
+    box-sizing: border-box;
+}
+
+.btn2:hover{
+    opacity: 0.5;
+}
+
+
+/*注略*/
+.annotation{
+    padding-bottom: 2rem;
+}
+
+
+.annotation p{
+    color:#A2A2A4;
+    font-size:0.7rem;
+    margin-top: 0.4rem;
+    margin-left: 10rem;
+   
+}
+
+
+/*下部*/
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    height:auto;
+    background-color: #F79214;
+    width: 100vw;
+
+}
+
+
+.about-potepan{
+    width:40%;
+    margin-bottom: 2rem;
+   
+}
+
+
+.about-potepan h1{
+    color:white;
+    font-size:1.8rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 2.5rem;
+}
+
+
+.about-potepan  span{
+    font-weight: 900;
+    font-size:2.5rem;
+}
+
+
+.about-potepan p{
+ color:white;
+ font-family: 'Lato', sans-serif;
+ margin-top: 2rem;
+ line-height: 25px;
+ 
+
+}
+
+.content-bottun a{
+    background-color: white;
+    border-radius: 50px;
+    width:17rem;
+    text-decoration: none;
+    display:inline-flex;
+    flex-flow: column;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+
+.content-bottun{
+    margin-top: 5rem;
+    margin-right: 5rem;
+}
+
+.content-bottun:hover{
+    opacity: 0.7;
+    
+}
+
+
+.content{
+    color:#F79214;
+    font-size:1.3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+}
+
+
+.text{
+    color:#F79214;
+    font-size:1px;
+    padding-top: 0.8rem;
+    font-weight: 500;
+    
+}
+
+.link-logo {
+    width: 23rem;
+    height: 5rem;
+}
+
+.link{
+    position: fixed;
+    top:35rem;
+    left:65rem;
+}
+
+
